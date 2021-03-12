@@ -9,6 +9,9 @@ class Project(models.Model):
     repository_url = models.URLField()
     users = models.ManyToManyField(Author)
 
+    def __str__(self):
+        return self.name
+
 
 class TODO(models.Model):
     CHOICES = (('C', 'Closed'),
