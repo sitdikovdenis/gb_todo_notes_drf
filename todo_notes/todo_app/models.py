@@ -24,3 +24,6 @@ class TODO(models.Model):
     updated_at = models.DateTimeField()
     author = models.ForeignKey(Author, on_delete=models.CASCADE, related_name='authors')
     state = models.CharField(choices=CHOICES, max_length=7)
+
+    def __str__(self):
+        return f'{self.text} ({self.state})'
