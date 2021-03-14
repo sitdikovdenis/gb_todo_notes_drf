@@ -12,6 +12,7 @@ class ProjectFilter(filters.FilterSet):
 
 class TODOFilter(filters.FilterSet):
    project = filters.ModelChoiceFilter(queryset=Project.objects.all())
+   date_from = filters.DateFromToRangeFilter(field_name='created_at')
 
    class Meta:
        model = TODO
