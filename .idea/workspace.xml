@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6633a8f8-98d2-420c-872e-3aa6f65a9640" name="Default Changelist" comment="Доделал 3 задание">
+    <list default="true" id="6633a8f8-98d2-420c-872e-3aa6f65a9640" name="Default Changelist" comment="Установил размер страницы для всех api 100 записей.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo_notes/todo_notes/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/todo_notes/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/library/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/library/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
       <workItem from="1615496479713" duration="2436000" />
       <workItem from="1615538567051" duration="3162000" />
       <workItem from="1615577288469" duration="2747000" />
-      <workItem from="1615632670251" duration="2515000" />
+      <workItem from="1615632670251" duration="3029000" />
     </task>
     <task id="LOCAL-00001" summary="Сделал модели в 3 задании">
       <created>1615498147611</created>
@@ -68,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615580173615</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Установил размер страницы для всех api 100 записей.">
+      <created>1615753708538</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615753708538</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +96,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Сделал модели в 3 задании" />
     <MESSAGE value="Доделал 3 задание" />
-    <option name="LAST_COMMIT_MESSAGE" value="Доделал 3 задание" />
+    <MESSAGE value="Установил размер страницы для всех api 100 записей." />
+    <option name="LAST_COMMIT_MESSAGE" value="Установил размер страницы для всех api 100 записей." />
   </component>
 </project>
