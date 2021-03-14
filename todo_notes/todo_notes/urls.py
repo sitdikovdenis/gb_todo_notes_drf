@@ -10,6 +10,7 @@ router.register('employees', AuthorModelViewSet)
 router.register(r'projects', ProjectModelViewSet, basename='Project')
 router.register(r'todos', TODOModelViewSet, basename='TODO')
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls')),
