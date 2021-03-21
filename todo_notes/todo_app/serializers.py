@@ -21,3 +21,12 @@ class TODOModelSerializer(serializers.ModelSerializer):
     class Meta:
         model = TODO
         fields = '__all__'
+
+
+class TODOModelWithAuthorSerializer(serializers.ModelSerializer):
+    author = serializers.SlugRelatedField(slug_field='user_name', read_only=True)
+    project = ProjectModelSerializer()
+
+    class Meta:
+        model = TODO
+        fields = '__all__'

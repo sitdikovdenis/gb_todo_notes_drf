@@ -38,7 +38,7 @@ class App extends React.Component {
             }).catch(error => console.log(error))
 
 
-        axios.get('http://127.0.0.1:8000/api/todos/')
+        axios.get('http://127.0.0.1:8000/api/api_todos/')
             .then(response => {
                 this.setState({
                         'todos': response.data.results

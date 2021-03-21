@@ -4,7 +4,7 @@ from rest_framework.viewsets import ModelViewSet
 
 from .filters import ProjectFilter, TODOFilter
 from .models import Project, TODO
-from .serializers import ProjectModelSerializer, TODOModelSerializer
+from .serializers import ProjectModelSerializer, TODOModelSerializer, TODOModelWithAuthorSerializer
 
 
 class ProjectLimitOffsetPagination(LimitOffsetPagination):
@@ -35,3 +35,8 @@ class TODOModelViewSet(ModelViewSet):
         instance.state = 'C'
         instance.save()
         return Response(serializer.data)
+
+
+class TODOModelViewSet2(ModelViewSet):
+    queryset = TODO.objects.all()
+    serializer_class = TODOModelWithAuthorSerializer

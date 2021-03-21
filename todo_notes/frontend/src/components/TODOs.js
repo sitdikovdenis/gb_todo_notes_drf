@@ -13,6 +13,9 @@ const TODOItem = ({todo}) => {
            <td>
                {todo.state}
            </td>
+           <td>
+               {todo.author}
+           </td>
        </tr>
    )
 }
@@ -29,6 +32,9 @@ const TODOList = ({items}) => {
            </th>
            <th>
                Состояние
+           </th>
+           <th>
+               Автор
            </th>
            {items.map((item) => <TODOItem todo={item} />)}
        </table>
