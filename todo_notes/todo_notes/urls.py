@@ -9,7 +9,7 @@ router = DefaultRouter()
 router.register('employees', AuthorModelViewSet)
 router.register(r'projects', ProjectModelViewSet, basename='Project')
 router.register(r'todos', TODOModelViewSet, basename='TODO')
-router.register(r'api_todos', TODOModelViewSet2, basename='TODO')
+router.register(r'api_todos', TODOModelViewSet2, basename='APITODO')
 
 
 urlpatterns = [
