@@ -2,21 +2,21 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 
 const MenuItem = () => {
-   return (
-       <nav>
+    return (
+        <nav>
             <ul>
-              <li>
-                <Link to='/'>Authors</Link>
-              </li>
-              <li>
-                <Link to='/projects'>Projects</Link>
-              </li>
-              <li>
-                <Link to='/todos'>TODOs</Link>
-              </li>
+                <li>
+                    <Link to='/'>Authors</Link>
+                </li>
+                <li>
+                    <Link to='/projects'>Projects</Link>
+                </li>
+                <li>
+                    <Link to='/todos'>TODOs</Link>
+                </li>
             </ul>
-          </nav>
-   )
+        </nav>
+    )
 }
 
 export default MenuItem
