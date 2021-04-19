@@ -1,0 +1,200 @@
+[
+	{
+		"model": "auth.group",
+		"pk": 1,
+		"fields": {
+			"name": "Администраторы",
+			"permissions": [
+				1,
+				2,
+				3,
+				4,
+				9,
+				10,
+				11,
+				12,
+				5,
+				6,
+				7,
+				8,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				33,
+				34,
+				35,
+				36,
+				25,
+				29,
+				26,
+				30,
+				27,
+				31,
+				28,
+				32,
+				21,
+				22,
+				23,
+				24,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44
+			]
+		}
+	},
+	{
+		"model": "auth.group",
+		"pk": 2,
+		"fields": {
+			"name": "Разработчики",
+			"permissions": [
+				36,
+				40,
+				41,
+				42,
+				43,
+				44
+			]
+		}
+	},
+	{
+		"model": "auth.group",
+		"pk": 3,
+		"fields": {
+			"name": "Владельцы проектов",
+			"permissions": [
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44
+			]
+		}
+	},
+	{
+		"model": "auth.user",
+		"pk": 2,
+		"fields": {
+			"password": "pbkdf2_sha256$216000$TKpn8YtdZlBw$VAG47iof4GJ1lUs6n5xidXgJJjc7ntLinBmlD/gh3b0=",
+			"last_login": null,
+			"is_superuser": false,
+			"username": "dir",
+			"first_name": "",
+			"last_name": "",
+			"email": "",
+			"is_staff": false,
+			"is_active": true,
+			"date_joined": "2021-03-24T12:47:00.501Z",
+			"groups": [],
+			"user_permissions": []
+		}
+	},
+	{
+		"model": "auth.user",
+		"pk": 3,
+		"fields": {
+			"password": "pbkdf2_sha256$216000$cvB6QsJHcvOm$jdfC/XV58BWuDLGVcKnKdT6msGjhw0we2nF59j5VfAo=",
+			"last_login": null,
+			"is_superuser": true,
+			"username": "admin",
+			"first_name": "",
+			"last_name": "",
+			"email": "",
+			"is_staff": true,
+			"is_active": true,
+			"date_joined": "2021-04-15T20:02:43Z",
+			"groups": [
+				1
+			],
+			"user_permissions": []
+		}
+	},
+	{
+		"model": "auth.user",
+		"pk": 4,
+		"fields": {
+			"password": "pbkdf2_sha256$216000$vwn5onlKYPWC$RYlIHjeBcFPR0NxBnjF3U8Ewd8TPHPm1faCD90PSTqs=",
+			"last_login": null,
+			"is_superuser": false,
+			"username": "developer",
+			"first_name": "dev",
+			"last_name": "dev",
+			"email": "",
+			"is_staff": false,
+			"is_active": true,
+			"date_joined": "2021-04-15T20:06:01Z",
+			"groups": [
+				2
+			],
+			"user_permissions": []
+		}
+	},
+	{
+		"model": "auth.user",
+		"pk": 1,
+		"fields": {
+			"password": "pbkdf2_sha256$216000$oZF3VuGexA8R$B8i5ZK7qufIacRADWxowC/p6PZc1pJc0M9ei+Tz69Fc=",
+			"last_login": null,
+			"is_superuser": false,
+			"username": "ProductOwner",
+			"first_name": "product",
+			"last_name": "owner",
+			"email": "",
+			"is_staff": false,
+			"is_active": true,
+			"date_joined": "2021-04-15T20:07:01Z",
+			"groups": [
+				3
+			],
+			"user_permissions": []
+		}
+	},
+	{
+		"model": "library.author",
+		"pk": "f9be3176-67f4-4980-9a8e-3ca6409a07ff",
+		"fields": {
+			"first_name": "Пупкин",
+			"last_name": "Виталий",
+			"birthday_year": 1999,
+			"email": "sdf@mk.ff",
+			"phone": "9595549",
+			"user_name": "sdddddddddddd"
+		}
+	},{
+		"model": "todo_app.project",
+		"pk": "b5dbd280-8329-4b11-899e-8c1b72d56ba7",
+		"fields": {
+			"name": "dfdsfgdfg",
+			"repository_url": "https://vk.com/playpirates",
+			"users": [
+				"f9be3176-67f4-4980-9a8e-3ca6409a07ff"
+			]
+		}
+	},
+	{
+		"model": "todo_app.todo",
+		"pk": "a90aece3-b1d1-485c-965e-c82d4a9e3644",
+		"fields": {
+			"project": "b5dbd280-8329-4b11-899e-8c1b72d56ba7",
+			"text": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+			"created_at": "2021-04-03",
+			"updated_at": "2021-04-03T21:07:56.952Z",
+			"author": "f9be3176-67f4-4980-9a8e-3ca6409a07ff",
+			"state": "C"
+		}
+	}
+]

@@ -20,10 +20,10 @@ class TODO(models.Model):
     uuid = models.UUIDField(primary_key=True, default=uuid4)
     project = models.ForeignKey(Project, on_delete=models.CASCADE, related_name='projects')
     text = models.TextField()
-    created_at = models.DateField()
-    updated_at = models.DateTimeField()
+    created_at = models.DateField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)
     author = models.ForeignKey(Author, on_delete=models.CASCADE, related_name='authors')
-    state = models.CharField(choices=CHOICES, max_length=7)
+    state = models.CharField(choices=CHOICES, max_length=7, default='C')
 
     def __str__(self):
         return f'{self.text} ({self.state})'

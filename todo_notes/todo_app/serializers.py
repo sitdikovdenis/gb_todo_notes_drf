@@ -7,7 +7,7 @@ from library.models import Author
 
 
 class ProjectModelSerializer(serializers.ModelSerializer):
-    users = AuthorModelInTODOAppSerializer(many=True)
+    users = AuthorModelInTODOAppSerializer(many=True, read_only=True)
 
     class Meta:
         model = Project
@@ -15,6 +15,14 @@ class ProjectModelSerializer(serializers.ModelSerializer):
 
 
 class TODOModelSerializer(serializers.ModelSerializer):
+    author = serializers.PrimaryKeyRelatedField(queryset=Author.objects.all())
+
+    class Meta:
+        model = TODO
+        fields = ['project', 'text', 'author']
+
+
+class TODOModelSerializerList(serializers.ModelSerializer):
     author = serializers.PrimaryKeyRelatedField(queryset=Author.objects.all())
     project = ProjectModelSerializer()
 
