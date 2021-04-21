@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6633a8f8-98d2-420c-872e-3aa6f65a9640" name="Default Changelist" comment="доделал 8 дз">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_notes/fixtures/initial_data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_notes/pytest.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_notes/tests/conftest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_notes/tests/employees_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_notes/tests/test_api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gb_todo_notes_drf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gb_todo_notes_drf.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo_notes/todo_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/todo_app/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo_notes/todo_app/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/todo_app/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo_notes/todo_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/todo_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/library/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/library/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/library/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/library/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/todo_notes/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/todo_notes/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/todo_notes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/todo_notes/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +24,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="lesson7" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1pRQzbho64fHoGhCw3aK8F9cY7G" />
@@ -184,7 +183,8 @@
       <workItem from="1618344032742" duration="3107000" />
       <workItem from="1618427271827" duration="5918000" />
       <workItem from="1618514013965" duration="4331000" />
-      <workItem from="1618601706008" duration="22234000" />
+      <workItem from="1618601706008" duration="22943000" />
+      <workItem from="1619031320274" duration="3179000" />
     </task>
     <task id="LOCAL-00001" summary="Сделал модели в 3 задании">
       <created>1615498147611</created>
@@ -270,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617106412886</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="доделал 8 дз">
+      <created>1618811157093</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1618811157093</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
