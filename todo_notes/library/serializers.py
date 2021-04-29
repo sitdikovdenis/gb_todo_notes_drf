@@ -7,7 +7,7 @@ from .models import Author
 class AuthorModelSerializer(HyperlinkedModelSerializer):
     class Meta:
         model = Author
-        fields = ['user_name', 'first_name', 'last_name']
+        fields = ['uuid', 'user_name', 'first_name', 'last_name']
 
 
 class AuthorModelSerializer20(HyperlinkedModelSerializer):

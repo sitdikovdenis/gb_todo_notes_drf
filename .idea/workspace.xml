@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6633a8f8-98d2-420c-872e-3aa6f65a9640" name="Default Changelist" comment="доделал 9 дз">
-      <change afterPath="$PROJECT_DIR$/todo_notes/library/schema.py" afterDir="false" />
+    <list default="true" id="6633a8f8-98d2-420c-872e-3aa6f65a9640" name="Default Changelist" comment="доделал 10 дз">
+      <change afterPath="$PROJECT_DIR$/todo_notes/frontend/src/components/ProjectForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/todo_notes/frontend/src/components/TODOForm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo_notes/todo_notes/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/todo_notes/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo_notes/todo_notes/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/todo_notes/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/components/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/frontend/src/components/Project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/components/TODOs.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/frontend/src/components/TODOs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/library/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/library/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/todo_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/todo_app/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +59,7 @@
       <recent name="$PROJECT_DIR$/todo_notes/fixtures" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.api_tests">
+  <component name="RunManager" selected="Python.run_django_todo_app">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="gb_todo_notes_drf" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,7 +188,10 @@
       <workItem from="1618514013965" duration="4331000" />
       <workItem from="1618601706008" duration="22943000" />
       <workItem from="1619031320274" duration="3480000" />
-      <workItem from="1619465395251" duration="1242000" />
+      <workItem from="1619465395251" duration="2929000" />
+      <workItem from="1619552681081" duration="5000" />
+      <workItem from="1619641042842" duration="5267000" />
+      <workItem from="1619724226768" duration="10750000" />
     </task>
     <task id="LOCAL-00001" summary="Сделал модели в 3 задании">
       <created>1615498147611</created>
@@ -284,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619037328135</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="доделал 10 дз">
+      <created>1619466830796</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1619466830796</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +331,8 @@
     <MESSAGE value="доделал 7 дз" />
     <MESSAGE value="доделал 8 дз" />
     <MESSAGE value="доделал 9 дз" />
-    <option name="LAST_COMMIT_MESSAGE" value="доделал 9 дз" />
+    <MESSAGE value="доделал 10 дз" />
+    <option name="LAST_COMMIT_MESSAGE" value="доделал 10 дз" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -329,20 +344,15 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/todo_notes/todo_app/views.py</url>
-          <line>26</line>
+          <line>29</line>
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/todo_notes/todo_app/serializers.py</url>
-          <line>9</line>
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/gb_todo_notes_drf$sxfdsadf.coverage" NAME="sxfdsadf Coverage Results" MODIFIED="1617737217559" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/todo_notes" />
-    <SUITE FILE_PATH="coverage/gb_todo_notes_drf$run_django_todo_app.coverage" NAME="run_django_todo_app Coverage Results" MODIFIED="1618661202528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/todo_notes" />
+    <SUITE FILE_PATH="coverage/gb_todo_notes_drf$run_django_todo_app.coverage" NAME="run_django_todo_app Coverage Results" MODIFIED="1619734446013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/todo_notes" />
     <SUITE FILE_PATH="coverage/gb_todo_notes_drf$api_tests.coverage" NAME="api_tests Coverage Results" MODIFIED="1618810750617" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/todo_notes" />
   </component>
 </project>

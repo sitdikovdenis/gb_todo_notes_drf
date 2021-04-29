@@ -1,7 +1,8 @@
 import React from 'react'
+import {Link} from "react-router-dom";
 
 
-const TODOItem = ({todo}) => {
+const TODOItem = ({todo, deleteTODO}) => {
    return (
        <tr>
            <td>
@@ -16,13 +17,17 @@ const TODOItem = ({todo}) => {
            <td>
                {todo.author}
            </td>
+            <td>
+                <button onClick={() => deleteTODO(todo.uuid)} type='button'>Delete</button>
+            </td>
        </tr>
    )
 }
 
 
-const TODOList = ({items}) => {
+const TODOList = ({items, deleteTODO}) => {
    return (
+       <div>
        <table>
            <th>
                Текст
@@ -36,8 +41,12 @@ const TODOList = ({items}) => {
            <th>
                Автор
            </th>
-           {items.map((item) => <TODOItem todo={item} />)}
+           <th>
+           </th>
+           {items.map((item) => <TODOItem todo={item} deleteTODO={deleteTODO}/>)}
        </table>
+            <Link to='/todos/create'>Create</Link>
+        </div>
    )
 }
 

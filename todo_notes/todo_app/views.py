@@ -24,6 +24,9 @@ class ProjectModelViewSet(ModelViewSet):
     # permission_classes = [permissions.IsAuthenticated]
 
     def perform_create(self, serializer):
+        print('*****************************************************************')
+        print(self.request.data.get('users'))
+        print('*****************************************************************')
         serializer.save(users=self.request.data.get('users'))
 
 
