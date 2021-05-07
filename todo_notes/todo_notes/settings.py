@@ -24,7 +24,7 @@ SECRET_KEY = '5yjz^#s7n8a$p3gs=sj4zkdg-j(qad^25a$xj^^lhxuu5$4gtf'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -81,8 +81,12 @@ WSGI_APPLICATION = 'todo_notes.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'django_gb_drf',
+        'USER': 'sitdikov_d_r',
+        'PASSWORD': '3931553',
+        'HOST': 'db',
+        'PORT': '5432',
     }
 }
 
@@ -121,6 +125,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATIC_ROOT = 'static'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3001",

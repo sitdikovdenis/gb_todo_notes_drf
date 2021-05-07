@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6633a8f8-98d2-420c-872e-3aa6f65a9640" name="Default Changelist" comment="доделал 10 дз">
-      <change afterPath="$PROJECT_DIR$/todo_notes/frontend/src/components/ProjectForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/todo_notes/frontend/src/components/TODOForm.js" afterDir="false" />
+    <list default="true" id="6633a8f8-98d2-420c-872e-3aa6f65a9640" name="Default Changelist" comment="доделал 11 дз">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nginx/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wait-for-postgres.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/frontend/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/components/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/frontend/src/components/Project.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/components/TODOs.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/frontend/src/components/TODOs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo_notes/library/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/library/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo_notes/todo_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/todo_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/components/Auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/components/Author.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Author.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/components/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/components/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/components/Project.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Project.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/components/ProjectForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/ProjectForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/components/TODOForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/TODOForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/components/TODOs.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/TODOs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/frontend/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo_notes/todo_notes/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/todo_notes/todo_notes/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +70,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/todo_notes/fixtures" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/todo_notes/library" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -56,10 +81,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/todo_notes/library" />
       <recent name="$PROJECT_DIR$/todo_notes/fixtures" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/todo_notes" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.run_django_todo_app">
+  <component name="RunManager" selected="Docker.todo_notes.db: Compose Deployment">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="gb_todo_notes_drf" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,6 +156,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="todo_notes: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="todo_notes.db: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="db" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <configuration name="api_tests" type="tests" factoryName="py.test">
       <module name="gb_todo_notes_drf" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -144,12 +195,16 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Docker.todo_notes: Compose Deployment" />
+      <item itemvalue="Docker.todo_notes.db: Compose Deployment" />
       <item itemvalue="Python.run_django_todo_app" />
       <item itemvalue="Python.sxfdsadf" />
       <item itemvalue="Python tests.api_tests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.todo_notes.db: Compose Deployment" />
+        <item itemvalue="Docker.todo_notes: Compose Deployment" />
         <item itemvalue="Python.sxfdsadf" />
       </list>
     </recent_temporary>
@@ -191,7 +246,10 @@
       <workItem from="1619465395251" duration="2929000" />
       <workItem from="1619552681081" duration="5000" />
       <workItem from="1619641042842" duration="5267000" />
-      <workItem from="1619724226768" duration="10750000" />
+      <workItem from="1619724226768" duration="11359000" />
+      <workItem from="1620245598535" duration="600000" />
+      <workItem from="1620326385584" duration="38757000" />
+      <workItem from="1620417249682" duration="3280000" />
     </task>
     <task id="LOCAL-00001" summary="Сделал модели в 3 задании">
       <created>1615498147611</created>
@@ -298,7 +356,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619466830796</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="доделал 11 дз">
+      <created>1619735551607</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1619735551607</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +397,8 @@
     <MESSAGE value="доделал 8 дз" />
     <MESSAGE value="доделал 9 дз" />
     <MESSAGE value="доделал 10 дз" />
-    <option name="LAST_COMMIT_MESSAGE" value="доделал 10 дз" />
+    <MESSAGE value="доделал 11 дз" />
+    <option name="LAST_COMMIT_MESSAGE" value="доделал 11 дз" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
